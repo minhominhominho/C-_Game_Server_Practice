@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{51e36583-7b40-4aca-a30c-a7d3a149cd76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{7ccd2cbc-9b08-426d-8822-5fd0d05bdcde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{71562798-63c3-40e8-9c8b-72581e02a43d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DummyClient.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPacketHandler.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPacketHandler.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\Protobuf\bin\Enum.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\Protocol.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\Struct.proto">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\bin\GenPackets.bat">
+      <Filter>Protocol</Filter>
+    </None>
+  </ItemGroup>
+</Project>

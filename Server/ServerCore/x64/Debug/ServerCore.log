@@ -1,0 +1,40 @@
+﻿  pch.cpp
+  Allocator.cpp
+  BufferReader.cpp
+  BufferWriter.cpp
+  ConsoleLog.cpp
+  CoreGlobal.cpp
+C:\Minho\Study\C++Projects\CPP_Server\Server\ServerCore\CoreGlobal.cpp(1,1): warning C4828: 파일에 0x66a 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
+  CorePch.cpp
+  CoreTLS.cpp
+  DBBind.cpp
+  DBConnection.cpp
+  DBConnectionPool.cpp
+  DBModel.cpp
+  DBSynchronizer.cpp
+  DeadLockProfiler.cpp
+  FileUtils.cpp
+  GlobalQueue.cpp
+  IocpCore.cpp
+  IocpEvent.cpp
+  Job.cpp
+  JobQueue.cpp
+  JobTimer.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Listener.cpp
+  Lock.cpp
+  LockQueue.cpp
+  Memory.cpp
+  MemoryPool.cpp
+  NetAddress.cpp
+  RecvBuffer.cpp
+  RefCounting.cpp
+  SendBuffer.cpp
+  Service.cpp
+  Session.cpp
+  SocketUtils.cpp
+  ThreadManager.cpp
+  XMLParser.cpp
+  코드를 생성하고 있습니다...
+  ServerCore.vcxproj -> C:\Minho\Study\C++Projects\CPP_Server\Server\Libraries\Libs\ServerCore\Debug\ServerCore.lib
